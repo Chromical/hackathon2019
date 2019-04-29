@@ -10,5 +10,6 @@ yggrun tests/test_light.yml
 yggrun tests/test_photosynthesis.yml
 yggrun tests/test_canopy.yml
 
-# Run complete integration network
+# Run complete integration network w/ & w/o fork
 yggrun tests/test_network.yml
+yggrun tests/test_network_fork.yml
